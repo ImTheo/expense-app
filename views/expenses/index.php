@@ -21,7 +21,7 @@
                 }
              ?>
             <div id="history-options">
-                <h2>Historial de gastos</h2>
+                <h2>Historial de donaciones</h2>
                 <div id="filters-container">
                     <div class="filter-container">
                         <select id="sdate" class="custom-select">
@@ -37,7 +37,7 @@
 
                     <div class="filter-container">
                         <select id="scategory" class="custom-select">
-                            <option value="">Ver todas las categorias</option>
+                            <option value="">Ver todas las categorias de donaciones</option>
                             <?php
                                 $options = $categories;
                                 foreach($options as $option){
@@ -193,7 +193,7 @@
         }
 
         async function getData(){
-            data = await fetch('http://localhost:8080/expense-app/expenses/getHistoryJSON')
+            data = await fetch('http://localhost/expense-app/expenses/getHistoryJSON')
             .then(res =>res.json())
             .then(json => json);
             this.copydata = [...this.data];
@@ -217,7 +217,7 @@
                         <td><span class="category" style="background-color: ${item.color}">${item.name}</span></td>
                         <td>${item.date}</td>
                         <td>$${item.amount}</td>
-                        <td><a href="http://localhost:8080/expense-app/expenses/delete/${item.id}">Eliminar</a></td>
+                        <td><a href="http://localhost/expense-app/expenses/delete/${item.id}">Eliminar</a></td>
                     </tr>`;
             });
         }

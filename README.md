@@ -50,14 +50,14 @@ Adicional en `public/js/dashboard.js` es necesario verificar que las URLs usadas
 
 ```
 async function getContent(){
-  const html = await fetch('http://localhost:8080/expense-app/expenses/create').then(res => res.text());
+  const html = await fetch('http://localhost/expense-app/expenses/create').then(res => res.text());
   return html;
 }
 ```
 
 ```
  async function drawChart() {
-        const http = await fetch('http://localhost:8080/expense-app/expenses/getExpensesJSON')
+        const http = await fetch('http://localhost/expense-app/expenses/getExpensesJSON')
         .then(json => json.json())
         .then(res => res);
 ```

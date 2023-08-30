@@ -33,43 +33,43 @@
                     <div class="panel">
                         <div class="title">Gastos</div>
                         <div class="datum">$<?php echo number_format($stats['max-expenses'], 2); ?></div>
-                        <div class="description">Gasto máximo</div>
+                        <div class="description">Donaciones máximas</div>
                     </div>
                     <div class="panel">
                         <div class="title">Gastos</div>
                         <div class="datum">$<?php echo number_format($stats['avg-expenses'], 2); ?></div>
-                        <div class="description">Gasto promedio</div>
+                        <div class="description">Donaciones promedio</div>
                     </div>
                     <div class="panel">
                         <div class="title">Gastos</div>
                         <div class="datum">$<?php echo number_format($stats['min-expenses'], 2); ?></div>
-                        <div class="description">Gasto mínimo</div>
+                        <div class="description">Donaciones mínimo</div>
                     </div>
                     <div class="panel">
                         <div class="title">Categorías</div>
                         <div class="datum"><?php echo $stats['count-categories']; ?></div>
-                        <div class="description">Categorias creadas</div>
+                        <div class="description">Donaciones creadas</div>
                     </div>
                     <div class="panel">
                         <div class="title">Categorías</div>
                         <div class="datum"><?php echo $stats['mostused-category']; ?></div>
-                        <div class="description">Categorias más usada</div>
+                        <div class="description">Categorias más donadas</div>
                     </div>
                     <div class="panel">
                         <div class="title">Categorías</div>
                         <div class="datum"><?php echo $stats['lessused-category']; ?></div>
-                        <div class="description">Categorias menos usada</div>
+                        <div class="description">Categorias menos donadas</div>
                     </div>
                 </div>
             </div>
             <div id="right-container">
                 <div class="transactions-container">
                     <section class="operations-container">
-                        <h2>Operaciones</h2>  
+                        <h2>Dashboard animalitos</h2>  
                         
                         <button class="btn-main" id="new-category">
                             <i class="material-icons">add</i>
-                            <span>Registrar nueva categoría</span>
+                            <span>Registrar nueva donación</span>
                         </button>
                     </section>
                 </div>

@@ -1,8 +1,8 @@
 <?php
 
-define('URL', 'http://localhost:8080/expense-app/');
+define('URL', 'http://localhost/expense-app/');
 
-define('HOST', 'localhost');
+define('HOST', 'localhost:4306');
 define('DB', 'expenseapp');
 define('USER', 'root');
 define('PASSWORD', "root");

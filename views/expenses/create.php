@@ -7,9 +7,9 @@
 
 
 <form id="form-expense-container" action="expenses/newExpense" method="POST">
-    <h3>Registrar nuevo gasto</h3>
+    <h3>Registrar nueva donación</h3>
     <div class="section">
-        <label for="amount">Cantidad</label>
+        <label for="amount">Cantidad $$</label>
         <input type="number" name="amount" id="amount" autocomplete="off" required>
     </div>
     <div class="section">

@@ -3,7 +3,7 @@
 
 
 <form id="form-expense-container" action="admin/newCategory" method="POST">
-    <h3>Registrar nueva categoria</h3>
+    <h3>Registrar nueva ayuda para animalitos</h3>
     <div class="section">
         <label for="amount">Nombre</label>
         <input type="text" name="name" id="color" autocomplete="off" required>

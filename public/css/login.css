@@ -1,7 +1,27 @@
-body{
-    background: #4492d6 !important;
+body {
+    
+    background-size: cover;
+    background-color: #4492d6;
 }
-#login-main{
+
+.container-loggin{
+    background-image: url('public/img/heh.jpg') no-repeat center center fixed;
+}
+
+#titulo_login {
+    font-size: 24px;
+    color: #115c1b;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el título horizontalmente */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Aumentar el espaciado entre letras */
+    font-weight: bold; /* Texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
+}
+
+
+
+#login-main {
     background-color: white;
     border-radius: 3px;
     padding: 20px;
@@ -9,12 +29,10 @@ body{
     margin: calc((100vh - 500px)/2) auto 0 auto;
 }
 
-#login-main h2{
+#login-main h2 {
     padding: 20px 0;
 }
 
-#login-main p{
+#login-main p {
     padding: 10px 0;
 }
-
-

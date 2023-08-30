@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense App - Dashboard</title>
+    <title>Donaciones animalitos - Dashboard</title>
 </head>
 <body>
     <?php require 'header.php'; ?>
@@ -29,7 +29,7 @@
                         <div class="card w-100">
                             <div class="total-budget">
                                 <span class="total-budget-text">
-                                    Balance General del Mes    
+                                    Donaciones General del Mes    
                                 </span>
                             </div>
                             <div class="total-expense">
@@ -78,7 +78,7 @@
                         
                         <div class="card w-50">
                             <div class="total-budget">
-                            <span class="total-budget-text">Tu gasto más grande este mes</span>
+                            <span class="total-budget-text">Su donación mas grande del mes</span>
                             
                             </div>
                             <div class="total-expense">
@@ -103,7 +103,7 @@
                 </div>
 
                 <div id="expenses-category">
-                    <h2>Gastos del mes por categoria</h2>
+                    <h2>Donaciones del mes por categoria</h2>
                     <div id="categories-container">
                         <?php
                             if($categories === NULL){
@@ -136,17 +136,17 @@
             <div id="right-container">
                 <div class="transactions-container">
                     <section class="operations-container">
-                        <h2>Operaciones</h2>  
+                        <h2>Dashboard</h2>  
                         
                         <button class="btn-main" id="new-expense">
                             <i class="material-icons">add</i>
-                            <span>Registrar nuevo gasto</span>
+                            <span>Registrar nueva donación</span>
                         </button>
-                        <a href="<?php echo constant('URL'); ?>user#budget-user-container">Definir presupuesto<i class="material-icons">keyboard_arrow_right</i></a>
+                        <a href="<?php echo constant('URL'); ?>user#budget-user-container">Definir presupuesto para donaciones<i class="material-icons">keyboard_arrow_right</i></a>
                     </section>
 
                     <section id="expenses-recents">
-                    <h2>Registros más recientes</h2>
+                    <h2>Donaciones más recientes</h2>
                     <?php
                          if($expenses === NULL){
                             showError('Error al cargar los datos');

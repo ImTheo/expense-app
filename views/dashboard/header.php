@@ -5,9 +5,9 @@
 
 <div id="header">
     <ul>
-        <li><a href="<?php echo constant('URL'); ?>dashboard">Home</a></li>
-        <li><a href="<?php echo constant('URL').'expenses'; ?>">Expenses</a></li>
-        <li><a href="<?php echo constant('URL'); ?>logout">Logout</a></li>
+        <li><a href="<?php echo constant('URL'); ?>dashboard">Indice</a></li>
+        <li><a href="<?php echo constant('URL').'expenses'; ?>">Donaciones</a></li>
+        <li><a href="<?php echo constant('URL'); ?>logout">Salir</a></li>
     </ul>
 
     <div id="profile-container">
